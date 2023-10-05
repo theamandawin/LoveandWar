@@ -1,0 +1,147 @@
+Name: Amanda
+Project Chessboard
+
+A chessboard is a game board used to play chess. It consists of 64 squares, 8 rows by 8 columns, on which the chess pieces are placed. It is square in shape and uses two colors of squares, one light and one dark, in a checkered pattern. During play, the board is oriented such that each player's near-right corner square is a light square.
+
+Board Notation String-set:{[a1,a2,a3,a4,a5,a6,a7,a8],[b1,b2,b3,b4,b5,b6,b7,b8],[c1,c2,c3,c4,c5,c6,c7,c8],[d1,d2,d3,d4,d5,d6,d7,d8],[e1,e2,e3,e4,e5,e6,e7],[f1,f2,f3,f4,f5,f6,f7,f8],[g1,g2,g3,g4,g5,g6,g7],[h1,h2,h3,h4,h5,h6,h7,h8]}
+
+⬛️⬜️⬛️⬜️⬛️⬜️⬛️⬜️
+⬜️⬛️⬜️⬛️⬜️⬛️⬜️⬛️
+⬛️⬜️⬛️⬜️⬛️⬜️⬛️⬜️
+⬜️⬛️⬜️⬛️⬜️⬛️⬜️⬛️
+⬛️⬜️⬛️⬜️⬛️⬜️⬛️⬜️
+⬜️⬛️⬜️⬛️⬜️⬛️⬜️⬛️
+⬛️⬜️⬛️⬜️⬛️⬜️⬛️⬜️
+⬜️⬛️⬜️⬛️⬜️⬛️⬜️⬛️
+
+Game Equation
+------------------
+8 x 8 = 64
+Rows = Ranks
+Columns = Files
+X = Diagonals
+
+
+⬛️ ⬜️ ⬛️ ⬜️ ⬛️ ⬜️ ⬛️ ⬜️
+
+Game Glossary
+------------------
+Plays ------------
+
+Alekhine's gun: A special form of battery in which a queen backs up two rooks on the same file.
+
+Antipositional: A move or a plan that is not in accordance with the principles of positional play. It's used to describe moves that are part of an incorrect plan rather than a mistake made when trying to follow a correct plan. They are often pawn moves: since pawns cannot move backwards to return to squares they have left, their advance can create irreparable weaknesses.
+
+Anti-Sicilian: An opening variation that White uses against the Sicilian Defense.
+
+// Grandmaster John Nunn attributes the Sicilian Defence's popularity to its "combative nature": "in many lines Black is playing not just for equality, but for the advantage. The drawback is that White often obtains an early initiative, so Black has to take care not to fall victim to a quick attack." //
+
+Armageddon game: A game that is guaranteed to produce a decisive result, because if there is a draw it is ruled a victory for Black. In compensation for this White is given more time on the clock. Often White is given five minutes, and Black four.
+
+Attraction: A type of decoy involving a sacrifice of a minor or major piece on a square next to the enemy king, forcing the king to abandon the defense of another square.
+
+Automaton: An automaton is a self-operating machine. In chess, it refers to chess-playing machines that were in fact hoaxes and under the control of hidden human players. Automatons stirred up great interest in the 18th and 19th centuries and inspired early thoughts of the possibility of artificial intelligence. By far, the most famous chess-playing "automaton" was The Turk, whose secret of human control was kept for a very long time. The first true automaton El Ajedrecista was created by Leonardo Torres y Quevedo.
+
+Basque chess/Basque system: A chess competition in which the players simultaneously play each other two games on two boards, each playing White on one and Black on the other. There is a clock at both boards.
+
+Best play: The theoretical absolute and ideal best moves from any given position.
+
+Bind: A strong grip or stranglehold on a position that is difficult for the opponent to break
+
+Brilliancy: A game that contains a spectacular, deep and beautiful strategic idea, combination, or original plan.
+
+Bye: A tournament round in which a player does not have a game, usually because there are an odd number of players. A bye is normally scored as a win (1 point), although in some tournaments a player is permitted to choose to take a bye (usually in the first or last round) and score it as a draw (½ point).
+
+Calculate: To plan mentally a series of moves and consider possible responses, without actually moving the pieces.
+
+Castling: A move in which the king and a rook are moved at the same time.
+
+Centralization: Moving a piece or pieces toward the center of the board, where they will not only control the center, but also extend their influence to other areas.
+
+Chess clock: A device made up of two adjacent clocks and buttons, keeping track of the total time each player takes for their moves.
+
+Coffeehouse: Adjective used to describe a move, player, or style of play characterized by risky, positionally dubious play that sets traps for the opponent.
+
+Computer move: A move that seems likely to have been played by a computer rather than a human, either because the move seems counterintuitive, or to not make immediate sense, or to eventually make sense but not until deep into the game. Computer moves seem to be what they are: moves based on millions of brute-force calculations, and not on intuition, aesthetics, or emotion. 
+
+Dead draw: A drawn position in which neither player has any realistic chance to win.
+
+Discovered attack: An attack made by a queen, rook or bishop when another piece or pawn moves out of its way.
+
+Diversionary sacrifice: Especially in the middle game, the sacrifice of a decoy piece. 
+
+Draw death: Hypothetical scenario whereby elite-level chess players, aided by modern computer analysis, become so good that they never make mistakes, leading to endless drawn games.
+
+Endgame tablebase: A computerized database of endgames with a small number of pieces, providing perfect play for both players, and thus completely solving those endgames. As of 2012, tablebases have been calculated for all positions with up to seven pieces.
+
+Exhibition: Chess games played for the public in various formats and for various purposes, often to promote the game, or a particular match or player, or as a fundraiser. An exhibition may pit two masters against each other, and normally use chess clocks. In a simultaneous exhibition, one player takes on a number of opponents at once, and it is often not timed. A blindfold exhibition is the same but more challenging, since the exhibitor plays without seeing the boards.
+
+Family fork: A knight fork that simultaneously attacks the enemy king(giving check), queen, and possibly other pieces. 
+
+Fingerfehler[from German, "finger mistake"]: An error caused by unthinkingly touching the wrong piece or releasing a piece on the wrong square, forcing the player to move that piece in accordance with the touch-move rule.
+
+Gambit: A sacrifice(usually a pawn) used to gain an early advantage in space or time in the opening.
+
+God: Metaphorical; a hypothetical player who always plays perfectly.
+
+Hanging: Unprotected and exposed to capture.
+
+J'adoube: (from French, "I adjust", pronounced [ʒa.dub]) The international signal of the intention to adjust the position of a piece on the board. When playing with the touch-move rule, a player must say this in order to be able to touch a piece without being subject to the touched piece rule.
+
+Knight's tour: A puzzle that challenges a person to set a knight on an empty chessboard, and make the piece move around (as it moves in a chess game), but to visit every square only once. The knight's tour is the most well known of a variety of tours and puzzles based on chess pieces. A closed tour (also known as a re-entrant tour) ends on the same square on which it began and needs 64 moves. An open tour ends on a different square and needs only 63 moves.
+
+Kotov syndrome: This phenomenon, described by Alexander Kotov in his 1971 book Think Like a Grandmaster, can occur when a player does not find a good plan after thinking long and hard on a position.
+
+Kriegspiel[from German, "war game"]: Kriegspiel is a chess variant played by two opponents who can see only their own board, and one monitoring umpire who makes the moves of both players on a neutral board. It requires three chess sets and boards. The players make their moves based on limited information from the umpire. It was introduced in 1898.
+
+Romantic chess: Romantic chess was the style of chess prevalent in the 19th century. It is characterized by bold attacks and sacrifices.
+
+Smothered mate: A checkmate delivered by a knight in which the mated king is unable to escape because it is surrounded (or "smothered") by its own pieces.
+
+Sortie: A queen development in front of its own pawns, often early in the opening, usually for the purpose of exploiting an advantage in space or punishing an error by the opponent.
+
+Spite check: A harmless check given by a player who is about to lose the game, that serves no purpose other than to momentarily delay the defeat.
+
+Staircase maneuver: A tactic by which a queen, rook, or king progresses along a diagonal by making a series of lateral steps using a series of checks or alternating with pins and checks. Also called staircase movement.
+
+Theoretical novelty: Or simply novelty. A move in the opening that has not been played before.
+
+Threefold repetition: A draw may be claimed if the same position occurs three times with the same player to move; and with each player having the choice of the same set of moves each time.
+
+Troitsky linez: Also Troitzky line. Endgame analysis by Alexey Troitsky of two knights versus a pawn found certain pawn positions that result in win, draw or loss.
+
+X-ray: When the power of a piece, either to attack or to defend, seems to pass through an intervening enemy piece. An X-ray attack, also known as a skewer, occurs when two pieces of the same color are caught in the same line of attack along a diagonal, rank, or file. The attacking piece forces the first and more valuable piece to move out of the way, which allows the second piece to be captured.
+
+⬛️ ⬜️ ⬛️ ⬜️ ⬛️ ⬜️ ⬛️ ⬜️
+
+Players ----------
+
+Arabian mate: A checkmate that occurs when the knight and rook trap the opposing king in a corner.
+
+Arbiter: An official responsible for overseeing chess tournaments and ensuring that the rules of chess are obeyed.
+
+Bad bishop: A bishop that is hemmed in by the player's own pawns.
+
+Bare King: A position in which a king is the only man of its color on the board. 
+
+Caïssa: Known as the goddess or muse of chess, whose name is taken from a nymph in a 1763 poem, Caïssa or The Game at Chess, by Sir William Jones.
+
+Desperado: A piece that seems determined to give itself up, typically to bring about stalemate or perpetual check. 
+
+Knight: A piece that may move to any nearest square not on a rank, file, or diagonal on which it stands. In other words, it may move two squares horizontally or vertically and then one square perpendicular to that (forming an L shape), jumping over any pieces in the way.
+
+⬛️ ⬜️ ⬛️ ⬜️ ⬛️ ⬜️ ⬛️ ⬜️
+
+Materials: Ebony, Ivory, Marble, Metal, Glass, Plastic, Wood, Vinyl, Plastic, Cardboard
+
+Variant boards: Circular, Cylinder, Hexagonal, Tamerlane, Capablanca, Omega, Grand, Los Alamos, Xianqi, Janggi, Bughouse, Alice, Three-Dimensional, Raumschach, Star Trek
+
+⬛️ ⬜️ ⬛️ ⬜️ ⬛️ ⬜️ ⬛️ ⬜️
+
+Representations:
+
+The game of chess has been represented in the arts since its creation. Chess sets had considerable artistic value; they were made of noble materials, such as ebony and ivory, and in large sizes. Many of the pieces in these sets were offered to churches as relics. 
+
+In 1250, a sermon called Quaedam moralities de scaccario per Innocentium papum(The Innocent Morality) showed the world as being represented by a chessboard. The white and black squares represented the two conditions of life and death or praise and censure; over these the pieces, representing humanity, would confront each other in the adversities of the game, which symbolized life. 
+
+Due to its simple geometry, the chessboard is often used in mathematical puzzles or problems unrelated to chess, such as wheat and chessboard problem and the mutilated chessboard problem.
