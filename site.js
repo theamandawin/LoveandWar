@@ -35,8 +35,8 @@ const game = [
         { piece: ChessPiece.WHITE_PAWN, from: 'e2', to: 'e4' },
         { piece: ChessPiece.BLACK_PAWN, from: 'e7', to: 'e5' },
 
-        { piece: ChessPiece.WHITE_PAWN, from: '', to: ''},
-        { piece: ChessPiece.BLACK_PAWN, from: '', to: ''},
+        { piece: ChessPiece.WHITE_KNIGHT, from: 'g1', to: 'f3'},
+        { piece: ChessPiece.BLACK_PAWN, from: 'v', to: ''},
 
         { piece: ChessPiece.WHITE_PAWN, from: '', to: ''},
         { piece: ChessPiece.BLACK_PAWN, from: '', to: ''},
